@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>锅打灰太狼</title>
+
+    <script src="js/GameProgress.js"></script>
+    <script src="js/Wolf.js"></script>
+    <script src="js/GameMap.js"></script>
+    <script src="js/GameMenu.js"></script>
+    <script src="js/GameView.js"></script>
+    <script src="js/Game.js"></script>
+</head>
+<body>
+    <div id="game"></div>
+
+<!-- 锅打灰太狼思路：游戏框架——游戏地图——游戏狼——游戏狼的类型——游戏狼的打击——游戏得分——游戏时间 -->
+    <script>
+        //创建游戏对象
+        let game = new Game(480,800);
+        //游戏开始
+        game.start();
+    </script>
+
+
+</body>
+</html>
